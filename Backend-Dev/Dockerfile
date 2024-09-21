@@ -37,3 +37,20 @@ EXPOSE 8080
 # Define the command to run the application when the container starts
 # Executes the JAR file with the Java runtime
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
+
+
+
+
+
+
+
+
+
+# To run your commands correctly:
+
+#     1. mvn clean: Removes old build files to start fresh.
+#     2. docker-compose up: Starts your application’s services as defined in the configuration file.
+    
+# Ensure you're in the correct directory with your `docker-compose.yml` file before running the second command.
